@@ -1,0 +1,19 @@
+# Artifact Hub package metadata file
+# https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml
+version: 1.0.0
+name: metadata
+displayName: metadata
+createdAt: 2021-04-27T10:00:00Z
+description: Enables a metadata collector
+license: Apache-2.0
+homeURL: https://coredns.io
+keywords:
+  - coredns
+  - plugin
+links:
+  - name: Source
+    url: https://github.com/coredns/coredns/tree/master/plugin/metadata
+provider:
+  name: CoreDNS
+recommendations:
+  - url: https://artifacthub.io/packages/helm/coredns/coredns
